@@ -1,0 +1,34 @@
+{
+  "name": "Videosites",
+  "version": "1.0.0",
+  "description": "Create fluid websites that tell a story and guide people",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gutoamg/Videosites.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gutoamg/Videosites/issues"
+  },
+  "homepage": "https://github.com/gutoamg/Videosites#readme",
+  "files": [
+    "dynamic.js"
+  ],
+  "dependencies": {
+    "next": "^10.0.8",
+    "next-images": "^1.7.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "styled-components": "^5.2.1"
+  },
+  "devDependencies": {
+    "@types/styled-components": "^5.1.8"
+  }
+}
