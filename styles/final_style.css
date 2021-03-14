@@ -375,7 +375,7 @@ body {
   width: 100%;
   font-family: 'Titillium Web', sans-serif;
   font-style: italic;
-  font-size: 30px;
+  font-size: 32px;
   line-height: 35px;
   letter-spacing: 2px;
   text-align: center;
@@ -385,7 +385,7 @@ body {
 
 .tools-container #fixed-animations .its-a-film h2:nth-child(3) {
   font-family: Merriweather, cursive;
-  font-size: 30px;
+  font-size: 32px;
 }
 
 .tools-container #fixed-animations .its-a-film h1 {
@@ -1013,11 +1013,11 @@ body {
     height: 230px;
   }
   .tools-container #fixed-animations .its-a-film h2 {
-    font-size: 50px;
+    font-size: 60px;
     line-height: 65px;
   }
   .tools-container #fixed-animations .its-a-film h2:nth-child(3) {
-    font-size: 40px;
+    font-size: 50px;
   }
   .tools-container #fixed-animations .its-a-film h1 {
     font-size: 45px;

@@ -26,7 +26,7 @@ const Hi = () => {
                         <div id="videosite-advantages">
                             <h3> More appealing </h3>
                             <h3> More rhythm </h3>
-                            <h3 id="moreless"> Moreless,</h3>
+                            <h3 id="moreless"> More or less, </h3>
                         </div>
                     </div>
                 </div>

@@ -383,9 +383,9 @@ const Thescript = () => {
 
       // "This" appears
       if (relativeScrolledFirstPage >= 0.84)
-          videositeAdvNodeList[2].innerHTML = `Moreless, this`;
+          videositeAdvNodeList[2].innerHTML = `More or less, this`;
       else
-          videositeAdvNodeList[2].innerHTML = `Moreless,`;
+          videositeAdvNodeList[2].innerHTML = `More or less,`;
 
 
       //------ Animations Why page ------

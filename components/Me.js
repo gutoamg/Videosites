@@ -14,7 +14,7 @@ const Me = () => {
                     tries to find the best ways to express his creativity.
                 </p>
                 <p className="how-come-text">
-                    Years pass by, viruses pass by and he decides to embrace
+                    Years pass by, a pandemic passes by and he decides to embrace
                     programming too, as an attempt to ally theory and practice.
                     
                 </p>

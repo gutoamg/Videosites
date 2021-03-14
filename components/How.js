@@ -34,7 +34,7 @@ const How = () => {
                 </ul>
             </div>
             <div id="projects-upload">
-                <h2>PS Other projects will be uploaded in the future</h2>
+                <h2>PS: Other projects will be uploaded in the future</h2>
             </div>
         </section>
 
