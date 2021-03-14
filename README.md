@@ -10,4 +10,4 @@ and the setTimeout function because they may cause future problems
 as browsers keep changing the way they handle asynchronous functions. 
 
 As I stated in the Javascript main file, the code will be refactored 
-for better readability, but
+for better readability, but already has an overview of the functionalities.
