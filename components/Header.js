@@ -17,7 +17,7 @@ const Header = () => {
 
             //Open Graph
             <meta property="og:url" content={'https://gutoamg.com/'} key="ogurl" />
-            <meta property="og:image" content='public/Videosite_screenshot.png' key="ogimage" />
+            <meta property="og:image" content='https://gutoamg.com/Videosite_screenshot.png' key="ogimage" />
             <meta property="og:site_name" content={'gutoamg'} key="ogsitename" />
             <meta property="og:title" content={"Videosites"} key="ogtitle" />
             <meta property="og:description" content={'This is my portfolio and a Videosite, a concept Design that presents a different way of navigating through websites.'} key="ogdesc" />
