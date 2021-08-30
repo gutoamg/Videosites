@@ -1,37 +1,121 @@
+function scrollToEnd() {
+    var heightToScroll = document.getElementsByTagName('body')[0].offsetHeight;
+    heightToScroll -= document.getElementsByClassName("contact-container")[0].offsetHeight;
+    window.scroll(0, heightToScroll);
+};
 
 const Hi = () => {
     return(
         <section className="main-containers projects-container">
-            <div id="fixed-picture">
-                <svg width="100px" height="100px" id="disappearing-button" viewBox="0 0 513 514" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <filter id="dropshadow" height="130%">
-                        <feGaussianBlur in="SourceAlpha" stdDeviation="4"/>
-                        <feOffset dx="0" dy="0" result="offsetblur"/> 
-                        <feComponentTransfer>
-                            <feFuncA type="linear" slope="0.5"/> 
-                        </feComponentTransfer>
-                        <feMerge> 
-                            <feMergeNode/> 
-                            <feMergeNode in="SourceGraphic"/> 
-                        </feMerge>
-                    </filter>
-                    <path style={{filter:"url(#dropshadow)"}} d="M8.00071 4.62269C13.0942 0.636863 16.7962 0.464464 24.0007 1.62285L502.001 240.623C506.324 243.131 508.337 245.1 511.001 249.623L512.001 256.123C511.896 259.854 511.638 261.804 511.001 265.123C509.083 267.499 507.986 268.668 506.001 270.623L502.001 273.623L30.0007 509.623L23.0007 512.621C17.8748 512.621 19.0007 513.352 13.0006 511.951C7.07167 509.367 3.40821 506.509 1 499.621L1.00071 498.622V14.6227C2.40476 9.64694 3.70099 7.26667 8.00071 4.62269Z" stroke="none"/>
-                </svg>
-                <div id="loading-image" className="async-image">
-                    <div id="loading-image-inner-elem">
-                        <div id="videosite-title">
-                            <h1 id="videosites">VIDEOSITES</h1>
-                            <h4> Websites for the era of video </h4>
+            <div id="introduction-container">
+                <div id="hidden-text">
+                    <div id="keep-watching" className="hidden-text">
+                        <p>Or keep watching</p>
+                        <div id="keep-watching-cover"></div>
+                    </div>
+
+                    <div id="jump-to-end" className="hidden-text">
+                        <a href={"#0"} onClick={scrollToEnd}>Jump to end</a>
+                    </div>
+                </div>
+
+                <div id="time-is-short">
+                    <div className="time-is-short-inner"></div>
+                    <p className="time-is-short-inner">ime's short ?</p>
+                    <div className="time-is-short-inner"></div>
+                </div>
+
+                <div id="crossword-container">
+                    <div className="white-band"></div>
+                    <div className="white-band"></div>
+
+                    <div className="line-container">
+                        <div className="letter-container vertical-letter">
+                            <p className="crossword-letter">P</p>
                         </div>
-                        <div id="videosite-advantages">
-                            <h3> More appealing </h3>
-                            <h3> More rhythm </h3>
-                            <h3 id="moreless"> More or less, </h3>
+                    </div>
+
+                    <div className="line-container">
+                        <div className="crossword-spacer"></div>
+                        <div className="letter-container">
+                            <p id="letter-A" className="crossword-letter">A</p>
+                        </div>
+                        <div className="letter-container">
+                            <p id="letter-u1" className="crossword-letter">u</p>
+                        </div>
+                        <div className="letter-container">
+                            <p id="letter-g" className="crossword-letter">g</p>
+                        </div>
+                        <div className="letter-container">
+                            <p id="letter-u" className="crossword-letter">u</p>
+                        </div>
+                        <div className="letter-container">
+                            <p id="letter-s1" className="crossword-letter">s</p>
+                        </div>
+                        <div className="letter-container">
+                            <p id="letter-t" className="crossword-letter">t</p>
+                        </div>
+                        <div className="letter-container">
+                            <p id="letter-o" className="crossword-letter">o</p>
+                        </div>
+                        <div className="letter-container">
+                            <p id="letter-sign" className="crossword-letter">'</p>
+                        </div>
+                        <div className="letter-container">
+                            <p id="letter-s" className="crossword-letter">s</p>
+                        </div>
+                        <div className="crossword-spacer"></div>
+                    </div>
+
+                    <div className="line-container">
+                        <div className="letter-container vertical-letter">
+                            <p className="crossword-letter">r</p>
+                        </div>
+                    </div>
+                    <div className="line-container">
+                        <div className="letter-container vertical-letter">
+                            <p className="crossword-letter">t</p>
+                        </div>
+                    </div>
+                    <div className="line-container">
+                        <div className="letter-container vertical-letter">
+                            <p className="crossword-letter">f</p>
+                        </div>
+                    </div>
+                    <div className="line-container">
+                        <div className="letter-container vertical-letter">
+                            <p className="crossword-letter">o</p>
+                        </div>
+                    </div>
+                    <div className="line-container">
+                        <div className="letter-container vertical-letter">
+                            <p className="crossword-letter">l</p>
+                        </div>
+                    </div>
+                    <div className="line-container">
+                        <div className="letter-container vertical-letter">
+                            <p className="crossword-letter">i</p>
+                        </div>
+                    </div>
+                    <div className="line-container">
+                        <div className="letter-container vertical-letter">
+                            <p className="crossword-letter">o</p>
                         </div>
                     </div>
                 </div>
             </div>
+
+            <div id="videosites-container" className="videosites">
+                <div id="videosites" className="videosites">
+                    <h2 className="videosites">This is a</h2>
+                    <h3 className="videosites">video-like concept I designed for single page websites</h3>
+                    <h1 className="videosites">Videosite</h1>
+                </div>
+                <p className="how-it-started videosites">nd this is</p>
+                <p className="how-it-started-2 videosites">how it started</p>
+            </div>
         </section>
+        
     );
 };
 
