@@ -25,7 +25,7 @@ const Navbar = () => {
                     <div className="progressbar fourth-project"><div className="variable-progress-bar"></div></div>
                 </div>
             </div>
-            <a href={"#0"} id="index">Home</a>
+            <p id="index">Home</p>
         </div>
     );
 };

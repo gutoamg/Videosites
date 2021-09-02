@@ -44,7 +44,7 @@ const How = () => {
                 <a className="simplist" href={"https://www.figma.com/file/mrVGlcVJVv173V13TUAKt8/Simplist?node-id=0%3A1"} target="_blank" rel="noopener noreferrer">Project screens</a>
                 <img className="simplist the-mechanics" src="Simplist.png" width="300px" alt="Simplist icon" />
             </div>
-            <h2>PS: I'll upload more projects in the future.</h2>
+            <h2>More projects coming soon.</h2>
         </section>
     );
 };

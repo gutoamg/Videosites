@@ -8,17 +8,17 @@ const Me = () => {
                 gastronomy passionate etc.
             </h2>
             <p className="paragraphs">
-                What's important to know about me is that 
-                the intersection of Design, creativity and entrepreneurship catches
-                my atention.
+                What's important to know about me is that the intersection of
+                Design, creativity and entrepreneurship catches my atention.
                 I believe this is a very powerful combination, so I invest
                 a lot of time developing my skills on them.
             </p>
             <p className="paragraphs">
-                It's also important for me to explore the possibilities of 
-                every new skill I develop, challenge myself to create something 
-                new from it and over time learn new ones, not just learn a 
-                thousand to put in my resume.
+                I also enjoy exploring the possibilities of every new 
+                skill I develop, challenge myself to create something 
+                new from it and over time learn new ones. After all, 
+                it's not one skill that makes me who I am, but how 
+                all them interconnect.
             </p>
             <a id="my-cv" href={"myCV_AugustoMGouveia.pdf"} target="_blank" rel="noopener noreferrer">My_CV</a>
             <h1 className="titles">Tech skills</h1>

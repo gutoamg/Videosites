@@ -4,12 +4,12 @@ const Why = () => {
             <div className="do-we-need do-we-need-js">
                 <img className="diagonal-arrow" src="diagonal-angular-22.svg" fill={"rgb(21, 21, 21)"} width="80%" height="90%" alt="Diagonal arrow" />
                 <nav className="menu do-we-need-js">
-                    <a href="#0" className="menu-logo do-we-need-js">gutoamg</a>
+                    <p className="menu-logo do-we-need-js">gutoamg</p>
                     <div className="menu-highlight"></div>
                     <div className="menu-slider"></div>
-                    <a href="#0" className="menu-option do-we-need-js">Home</a>
-                    <a href="#0" className="menu-option do-we-need-js">About</a>
-                    <a href="#0" className="menu-option do-we-need-js">Contact</a>
+                    <p className="menu-option do-we-need-js">Home</p>
+                    <p className="menu-option do-we-need-js">About</p>
+                    <p className="menu-option do-we-need-js">Contact</p>
                 </nav>
                 <div className="scrollbar do-we-need-js">
                     <div className="scrollbar-slider"></div>
@@ -33,14 +33,14 @@ const Why = () => {
                 <p id="navComponent" className="the-insight">Scrollbar</p>
                 <p className="the-insight-text" id="twofunctions">2 functions</p>
                 <div className="the-insight-text" id="insight-many-designs">
-                    <p className="the-insight-text">And many possible designs</p>
+                    <h3 className="the-insight-text">And many possible designs</h3>
                     <nav className="the-insight menu">
-                        <a href="#0" className="menu-logo">gutoamg</a>
+                        <p className="menu-logo">gutoamg</p>
                         <div className="menu-highlight menu-component"></div>
                         <div className="menu-slider menu-component"></div>
-                        <a href="#0" className="menu-option menu-component">Home</a>
-                        <a href="#0" className="menu-option menu-component">About</a>
-                        <a href="#0" className="menu-option menu-component">Contact</a>
+                        <p className="menu-option menu-component">Home</p>
+                        <p className="menu-option menu-component">About</p>
+                        <p className="menu-option menu-component">Contact</p>
                     </nav>
                 </div>
                 <div className="the-insight-text" id="insight-text-itsAFilm">

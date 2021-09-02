@@ -715,7 +715,7 @@ body {
   left: 50%;
 }
 
-.tools-container .the-insight-container #insight-many-designs p {
+.tools-container .the-insight-container #insight-many-designs h3 {
   position: relative;
   color: white;
   font-family: 'Saira', sans-serif;
@@ -1164,6 +1164,7 @@ body {
 }
 
 .contact-container #end-spacer {
+  z-index: -2;
   width: 100%;
   height: 100vh;
   background: transparent;
@@ -1204,7 +1205,7 @@ body {
   display: inline-block;
   width: 80px;
   height: 80px;
-  margin-left: 6px;
+  margin: 0px 8px 0px 14px;
 }
 
 .contact-container #linkedin-logo img {
@@ -1258,6 +1259,10 @@ body {
   -webkit-transform-origin: center;
           transform-origin: center;
   background-size: contain;
+}
+
+.contact-container #design-filter:hover {
+  cursor: pointer;
 }
 
 .contact-container #do-we-need-words-container {
@@ -1421,6 +1426,9 @@ body {
   background: transparent;
 }
 
+#navBar #container-play-pause:hover {
+  cursor: pointer;
+}
 #navBar #playButton {
   display: none;
   width: 26px;
@@ -1738,7 +1746,7 @@ body {
     font-size: 65px;
     line-height: 65px;
   }
-  .tools-container .the-insight-container #insight-many-designs p {
+  .tools-container .the-insight-container #insight-many-designs h3 {
     margin: 0px 10px 15px 10px;
     font-size: 52px;
     line-height: 58px;
@@ -1873,7 +1881,7 @@ body {
   .contact-container #linkedin-logo {
     width: 60px;
     height: 60px;
-    margin-left: 6px;
+    margin: 0px 8px 0px 14px;
   }
   .contact-container #linkedin-logo img {
     width: 60px;
@@ -2059,7 +2067,7 @@ body {
     font-size: 60px;
     line-height: 65px;
   }
-  .tools-container .the-insight-container #insight-many-designs p {
+  .tools-container .the-insight-container #insight-many-designs h3 {
     margin: 0px 10px 15px 10px;
     font-size: 50px;
     line-height: 56px;
@@ -2210,7 +2218,7 @@ body {
   .contact-container #linkedin-logo {
     width: 40px;
     height: 40px;
-    margin-left: 6px;
+    margin: 0px 6px 0px 10px;
   }
   .contact-container #linkedin-logo img {
     width: 40px;

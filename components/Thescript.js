@@ -521,9 +521,9 @@ const Thescript = () => {
         
             // Sliding "And this is how it started"
             //secondanimationaux = 50 + (firstPage.videosites[5].offsetWidth * 100 / (pageWindow.windowWidth * 5));
-            animationAux = animation_value(0.93, 0.97, relativeScrolledFirstPage, 150, thirdAnimationaux);
+            animationAux = animation_value(0.91, 0.97, relativeScrolledFirstPage, 150, thirdAnimationaux);
             firstPage.videosites[5].style.left = `${animationAux}%`;
-            animationAux = animation_value(0.9, 0.97, relativeScrolledFirstPage, 150, 50);
+            animationAux = animation_value(0.87, 0.97, relativeScrolledFirstPage, 150, 50);
             firstPage.videosites[6].style.left = `${animationAux}%`;
         } else
             firstPage.videosites[0].style.display = "none";
@@ -890,12 +890,15 @@ const Thescript = () => {
             animationAux = animation_value(0.8, 1, relativeScrolledFourthPage, 3.8, 0.95);
             fourthPage.designPossibilities.style.transform = `scale3d(${animationAux}, ${animationAux}, 1)`;
 
-            // The end animation
-            animationAux = animation_value(0.78, 1, relativeScrolledFourthPage, 3, 0.08);
-            fourthPage.designFilter.style.transform = `translate(-50%, -50%) scale(${animationAux})`;
-            animationAux = animation_value(0.78, 1, relativeScrolledFourthPage, 0, 1);
-            fourthPage.designFilter.style.opacity = `${animationAux}`;
-
+            // Reload end animation
+            if (relativeScrolledFourthPage >= 0.75) {
+                fourthPage.designFilter.style.display = `block`;    
+                animationAux = animation_value(0.78, 1, relativeScrolledFourthPage, 3, 0.08);
+                fourthPage.designFilter.style.transform = `translate(-50%, -50%) scale(${animationAux})`;
+                animationAux = animation_value(0.78, 1, relativeScrolledFourthPage, 0, 1);
+                fourthPage.designFilter.style.opacity = `${animationAux}`;
+            } else 
+                fourthPage.designFilter.style.display = `none`;
 
             // Making cinema photo brighter
             if (relativeScrolledFourthPage >= 0.8) {
